@@ -1,0 +1,16 @@
+Modulo de Usuario
+1.- Crear el entorno virtual
+python -m venv namevirtual
+
+2.- activar el entorno virtual
+source entornos/Scripts/activate
+
+3.- Instalar django
+pip install django
+
+4.- Crear un proyecto django
+django-admin startproject usuarios
+
+5.- Crear la db
+create database dbuser;
+alter user neunapp with password 'usuario2020';
